@@ -1,0 +1,59 @@
+.postlist{
+    background: white;
+    border: 1px solid rgb(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+
+.posthead {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px 0 20px;
+}
+
+.postUser {
+    display: flex;
+    align-items: center;
+}
+
+.userDetail {
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.postData {
+    margin-top: 8px;
+}
+
+.postData > span{
+    padding: 15px 20px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: inherit!important;
+}
+
+.postData > img{
+    margin-top: 20px;
+    width: 100%;
+}
+
+.postActions{
+    margin-top: 10px;
+    padding: 0 20px 0 20px;
+}
+
+.postlikes{
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    color:rgb(0, 0, 0, 0.45);
+}
+
+.postlikes > img{
+    margin-right: 5px;
+}
+
+.postlikes > span:hover{
+    text-decoration: underline;
+    color: #004182;
+}
